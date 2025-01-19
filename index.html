@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic webpage setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scraipi - Web Data Collection Tool</title>
+    <title>Scraipi</title>
+    
+    <!-- Connect our files -->
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    
+    <!-- Get icons from FontAwesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Your HTML content here (without the style and script tags) -->
-    <script src="assets/js/main.js"></script>
+    <!-- Top navigation -->
+    <nav>
+        <div class="logo">Scraipi</div>
+        <div class="nav-links">
+            <a href="#">About</a>
+            <a href="#">Process</a>
+            <a href="#">Legal</a>
+            <button class="get-started">Get Started</button>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <!-- Search box -->
+        <div class="search-box">
+            <h2>Data Search</h2>
+            <input type="text" placeholder="What data are you looking for?">
+            <button>Search</button>
+        </div>
+
+        <!-- Features -->
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-search"></i>
+                <h3>Search Smart</h3>
+                <p>Find exactly what you need</p>
+            </div>
+            <!-- Add more feature cards as needed -->
+        </div>
+    </main>
 </body>
 </html>
